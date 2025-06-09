@@ -19,11 +19,11 @@ This is a ReactJS Skip Hire application built as part of a UI/UX coding challeng
 
 ## Live Demo
 
-👉 Visit: [https://codesandbox.io/p/github/your-username/skip-hire-app](https://codesandbox.io/p/github/your-username/skip-hire-app)
+👉 Visit: [https://codesandbox.io/p/github/eugenekonadu/skip-hire-app](https://codesandbox.io/p/github/eugenekonadu/skip-hire-app)
 
 ## Getting Started
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/skip-hire-app.git
+   git clone https://github.com/eugenekonadu/skip-hire-app.git
    cd skip-hire-app
