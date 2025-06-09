@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.side-nav {
+  width: 220px;
+  transition: all 0.3s ease;
+}
+
+.side-nav.collapsed {
+  width: 60px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-left: 220px;
+  transition: all 0.3s ease;
+}
+
+.layout .side-nav.collapsed ~ .main-content {
+  padding-left: 60px;
+}
+
+.page-content {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .layout .side-nav.collapsed ~ .main-content {
+    padding: 0;
+  }
+  .main-content {
+    padding: 0;
+  }
+}

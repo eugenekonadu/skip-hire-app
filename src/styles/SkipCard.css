@@ -1,0 +1,64 @@
+.skip-card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skip-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.skip-card.selected {
+  border: 2px solid var(--accent-color);
+  background-color: var(--selected-bg);
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
+.skip-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.skip-header {
+  padding: 1rem;
+  background: var(--head-bg);
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.skip-footer {
+  background-color: var(--head-bg);
+  display: flex;
+  font-size: 14px;
+  padding: 8px;
+  border-top: 1px solid #ccc;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.skip-body-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skip-body-text button {
+  background-color: var(--head-bg);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skip-body-text button:hover {
+  background-color: var(--head-bg);
+}
